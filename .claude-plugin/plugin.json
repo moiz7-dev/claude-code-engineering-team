@@ -5,6 +5,7 @@
   "author": {
     "name": "eng-team contributors"
   },
+  "icon": "./docs/icon.png",
   "license": "MIT",
   "homepage": "https://github.com/moiz7-dev/eng-team",
   "repository": "https://github.com/moiz7-dev/eng-team",

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added a social preview banner (`docs/social-preview.png`, source `docs/social-preview.html`).
+- Added a plugin icon (`docs/icon.png`, `docs/icon.svg`) and wired it in `plugin.json`.
+- README: banner under the title and an illustrative "Example run" image.
+
 ## 1.0.1 - 2026-11-23
 
 - README: key strengths section and the low-cost motive.

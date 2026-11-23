@@ -2,6 +2,8 @@
 
 # 🧑‍💻 eng-team: an AI engineering team for Claude Code
 
+![eng-team: a low-cost, multi-agent engineering team for Claude Code (Manager, Designer, Developer, QA)](docs/social-preview.png)
+
 **eng-team is a multi-agent engineering team on GitHub for Claude Code: a skill and plugin that runs Manager, Designer, Developer and QA subagents like a real team.**
 Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it, and nothing is "done" until QA approves.
 **Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
@@ -88,6 +90,7 @@ Each technique below comes from the "Token efficiency" section of [`skills/eng-t
 | | |
 |---|---|
 | [⭐ Key strengths](#strengths) | Five strengths, and why it is cheap to run |
+| [🎬 Example run](#example-run) | An illustrative plan and status update |
 | [🚀 Quickstart](#quickstart) | Three copy-paste prompts |
 | [🔌 Install](#install) | Plugin or manual, update, uninstall, verify |
 | [🗺️ How it flows](#flow) | Overall diagram |
@@ -98,6 +101,13 @@ Each technique below comes from the "Token efficiency" section of [`skills/eng-t
 | [🩺 Troubleshooting](#troubleshooting) | Namespacing and common problems |
 | [❓ FAQ](#faq) | Quick answers |
 | [🤝 Contributing and license](#contributing) | |
+
+<a id="example-run"></a>
+## 🎬 Example run
+
+An illustrative mock-up (not a recording of a real run) of the two messages you see most: the plan, then a status update after each step.
+
+![Illustrative example: a sample plan message and a status update from eng-team](docs/example-run.png)
 
 <a id="quickstart"></a>
 ## 🚀 Quickstart
