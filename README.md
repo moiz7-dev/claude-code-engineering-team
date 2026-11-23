@@ -154,11 +154,9 @@ Both scripts take an optional target directory (default `~/.claude`), for exampl
 
 | | Plugin install | Manual install |
 |---|---|---|
-| **Update** | Update the plugin from the `/plugin` menu in Claude Code | `git pull`, then re-run the installer with `--force` (`-Force`) |
-| **Uninstall** | Remove it from the `/plugin` menu | Delete `~/.claude/skills/eng-team/` and `~/.claude/agents/eng-designer.md`, `eng-developer.md`, `eng-qa.md` |
+| **Update** | `claude plugin update eng-team@eng-team-marketplace` (says "already at latest" when current), or use the `/plugin` menu | `git pull`, then re-run the installer with `--force` (`-Force`) |
+| **Uninstall** | `claude plugin uninstall eng-team`, then optionally `claude plugin marketplace remove eng-team-marketplace`; or use the `/plugin` menu | Delete `~/.claude/skills/eng-team/` and `~/.claude/agents/eng-designer.md`, `eng-developer.md`, `eng-qa.md` |
 
-> [!NOTE]
-> Plugin update and uninstall are done through Claude Code's `/plugin` menu; the exact wording can vary by Claude Code version.
 
 ### Verify it works
 

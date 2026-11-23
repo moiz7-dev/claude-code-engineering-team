@@ -5,6 +5,7 @@
 - Added a social preview banner (`docs/social-preview.png`, source `docs/social-preview.html`).
 - Added a plugin icon (`docs/icon.png`, `docs/icon.svg`) and wired it in `plugin.json`.
 - README: banner under the title and an illustrative "Example run" image.
+- README: documented the tested plugin update/uninstall commands.
 
 ## 1.0.1 - 2026-11-23
 
