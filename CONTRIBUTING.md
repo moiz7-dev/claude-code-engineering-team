@@ -24,6 +24,10 @@ Thanks for helping improve eng-team. This is an unofficial community project.
 3. Try a small end-to-end task with the plugin installed and note what you saw.
 4. Update `CHANGELOG.md` and, for user-visible changes, `README.md`.
 
+## Where to start
+
+Ask questions and share ideas in [Discussions](https://github.com/moiz7-dev/claude-code-engineering-team/discussions). Looking for a first task? See issues labelled [good first issue](https://github.com/moiz7-dev/claude-code-engineering-team/labels/good%20first%20issue).
+
 ## Reporting issues
 
 Include your install method (plugin or manual), the agent types listed by `/agents`, your `.eng-team/config.md` (remove anything private), and what the Manager reported.

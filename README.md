@@ -578,6 +578,13 @@ Yes: set `language` and `tone: technical` in the config.
 - Licensed under the MIT License: see [LICENSE](LICENSE).
 - The authoritative reference for behaviour is [`skills/eng-team/SKILL.md`](skills/eng-team/SKILL.md).
 
+### Community
+
+- Questions and ideas: [GitHub Discussions](https://github.com/moiz7-dev/claude-code-engineering-team/discussions).
+- Bugs: [open an issue](https://github.com/moiz7-dev/claude-code-engineering-team/issues).
+- Want to contribute? Pick a [good first issue](https://github.com/moiz7-dev/claude-code-engineering-team/labels/good%20first%20issue) and read [CONTRIBUTING.md](CONTRIBUTING.md).
+- Security problems: see [SECURITY.md](SECURITY.md), do not open a public issue.
+
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
 

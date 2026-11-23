@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Community: enabled GitHub Discussions, added an issue template chooser (`.github/ISSUE_TEMPLATE/config.yml`), a README Community section and starter issues.
+
 ## 1.0.2 - 2026-11-23
 
 - Repository renamed to claude-code-engineering-team; plugin name unchanged.
