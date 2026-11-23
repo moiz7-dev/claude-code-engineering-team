@@ -5,6 +5,7 @@
 **A simulated senior engineering team for Claude Code.**
 Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it, and nothing is "done" until QA approves.
 **Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
+**Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](#install)
