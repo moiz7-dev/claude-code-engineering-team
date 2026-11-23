@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- README: added a short personal note, "Why I built this".
 - Community: enabled GitHub Discussions, added an issue template chooser (`.github/ISSUE_TEMPLATE/config.yml`), a README Community section and starter issues.
 
 ## 1.0.2 - 2026-11-23

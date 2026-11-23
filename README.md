@@ -45,6 +45,11 @@ Then run `/eng-team <your task>`. More options: [Install](#install).
 - Refactors or fixes that touch several files and need an independent QA pass.
 - Getting a structured plan and acceptance criteria before any code is written.
 
+<a id="why"></a>
+## 💬 Why I built this
+
+I made this for myself. I wanted to work through tasks with a small AI team (a Manager, a Designer, a Developer and QA) instead of asking one agent to do everything. I used it every day for a long time and kept refining it as I went. Now I am sharing it so you can get your own tasks done with a team too. Feedback, ideas and contributions are very welcome: use [Discussions](https://github.com/moiz7-dev/claude-code-engineering-team/discussions), open an [issue](https://github.com/moiz7-dev/claude-code-engineering-team/issues), or read [CONTRIBUTING.md](CONTRIBUTING.md). This is an unofficial community project.
+
 <a id="strengths"></a>
 ## ⭐ Key strengths
 
@@ -91,6 +96,7 @@ Each technique below comes from the "Token efficiency" section of [`skills/eng-t
 
 | | |
 |---|---|
+| [💬 Why I built this](#why) | A short personal note |
 | [⭐ Key strengths](#strengths) | Five strengths, and why it is cheap to run |
 | [🎬 Example run](#example-run) | An illustrative plan and status update |
 | [🚀 Quickstart](#quickstart) | Three copy-paste prompts |
