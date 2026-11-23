@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "eng-team: a multi-agent AI engineering team skill for Claude Code"
+type: software
+authors:
+  - name: "eng-team contributors"
+repository-code: "https://github.com/moiz7-dev/eng-team"
+license: MIT
+version: 1.0.0
+keywords:
+  - claude-code
+  - subagents
+  - multi-agent
+  - agentic-workflow

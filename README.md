@@ -2,7 +2,7 @@
 
 # 🧑‍💻 eng-team
 
-**A simulated senior engineering team for Claude Code.**
+**A multi-agent AI engineering team for Claude Code: a skill and plugin that runs subagents like a real team.**
 Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it, and nothing is "done" until QA approves.
 **Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
 
@@ -14,6 +14,23 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
+
+**eng-team** is a Claude Code skill and plugin that turns Claude Code into a small, multi-agent engineering team. A Manager (the skill) plans the work into tickets, and Designer, Developer and QA subagents carry them out, with a QA gate before anything counts as done. It is designed to keep token cost low while keeping quality high.
+
+**What is it?**
+- A Claude Code skill (`/eng-team`) plus three subagents: Designer, Developer and QA.
+- A ticket-based agentic workflow with a shared Markdown team board.
+- Safe by default: no commit, push or deploy without asking.
+
+**Who is it for?**
+- Claude Code users who want broad tasks planned, built and reviewed, not just answered.
+- Solo developers, founders and non-coders who want plain-language progress updates.
+- Anyone who wants to use subagents without burning tokens on repeated exploration.
+
+**Use cases**
+- Building a multi-step feature end to end (plan, design, code, tests, review).
+- Refactors or fixes that touch several files and need an independent QA pass.
+- Getting a structured plan and acceptance criteria before any code is written.
 
 <a id="strengths"></a>
 ## ⭐ Key strengths
@@ -444,6 +461,27 @@ The file must be at `.eng-team/config.md` in the project root, one `key: value` 
 ## ❓ FAQ
 
 <details>
+<summary>How do I make Claude Code work like an engineering team?</summary>
+
+Install eng-team (see [Install](#install)) and run `/eng-team` with a task. A Manager plans tickets, then Designer, Developer and QA subagents work through them, and QA must approve each ticket. See [How it flows](#flow).
+
+</details>
+
+<details>
+<summary>How do I reduce Claude Code token cost with subagents?</summary>
+
+eng-team shares one repo digest instead of re-exploring, points to files instead of pasting them, keeps reports short, and scales the process to the task size. Quality gates such as QA and tests are never cut. Details: [Built to be cheap to run](#cheap).
+
+</details>
+
+<details>
+<summary>Is there a multi-agent Claude Code plugin?</summary>
+
+Yes, eng-team is one: a Claude Code plugin and skill that coordinates Designer, Developer and QA subagents under a Manager. Install it as a plugin or by manual copy. See [Install](#install).
+
+</details>
+
+<details>
 <summary>Does it work on any language or stack?</summary>
 
 Yes. The recon step records your stack and commands, and the team follows the conventions it finds in your repo.
@@ -509,3 +547,5 @@ Yes: set `language` and `tone: technical` in the config.
 
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
+
+<sub>Keywords: Claude Code, Claude Code skill, Claude Code plugin, subagents, multi-agent, agentic workflow, AI engineering team, QA gate, token efficiency.</sub>
