@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- README: added the personal note to the top of the page, under the badges.
 - README: added a short personal note, "Why I built this".
 - Community: enabled GitHub Discussions, added an issue template chooser (`.github/ISSUE_TEMPLATE/config.yml`), a README Community section and starter issues.
 

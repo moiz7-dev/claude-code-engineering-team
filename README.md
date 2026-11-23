@@ -14,6 +14,8 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 
 </div>
 
+> 💬 I built this for myself and used it for a long time. Now I'm sharing it with you, so you can get your own tasks done with a team too. [Read why](#why)
+
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
 
@@ -48,7 +50,7 @@ Then run `/eng-team <your task>`. More options: [Install](#install).
 <a id="why"></a>
 ## 💬 Why I built this
 
-I made this for myself. I wanted to work through tasks with a small AI team (a Manager, a Designer, a Developer and QA) instead of asking one agent to do everything. I used it every day for a long time and kept refining it as I went. Now I am sharing it so you can get your own tasks done with a team too. Feedback, ideas and contributions are very welcome: use [Discussions](https://github.com/moiz7-dev/claude-code-engineering-team/discussions), open an [issue](https://github.com/moiz7-dev/claude-code-engineering-team/issues), or read [CONTRIBUTING.md](CONTRIBUTING.md). This is an unofficial community project.
+I made this for myself. I wanted to work through tasks with a small AI team (a Manager, a Designer, a Developer and QA) instead of asking one agent to do everything. I used it for a long time and kept refining it as I went. Now I am sharing it so you can get your own tasks done with a team too. Feedback, ideas and contributions are very welcome: use [Discussions](https://github.com/moiz7-dev/claude-code-engineering-team/discussions), open an [issue](https://github.com/moiz7-dev/claude-code-engineering-team/issues), or read [CONTRIBUTING.md](CONTRIBUTING.md). This is an unofficial community project.
 
 <a id="strengths"></a>
 ## ⭐ Key strengths
