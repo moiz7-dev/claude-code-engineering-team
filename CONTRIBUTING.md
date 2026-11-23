@@ -27,3 +27,7 @@ Thanks for helping improve eng-team. This is an unofficial community project.
 ## Reporting issues
 
 Include your install method (plugin or manual), the agent types listed by `/agents`, your `.eng-team/config.md` (remove anything private), and what the Manager reported.
+
+## Wording and discoverability
+
+Write descriptions in plain, accurate words that people actually search for (for example "engineering team", "Claude Code", "subagents"). Do not stuff keywords, do not make claims the code does not back up, and do not imply affiliation with Anthropic or other projects. Keep the "unofficial community project" note.

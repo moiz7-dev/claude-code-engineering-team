@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Docs: clearer README title, intro and FAQ wording (eng team, engineering team, Claude Code, GitHub); sharper plugin and marketplace descriptions and keywords; added `llms.txt`, `SECURITY.md` and an issue template.
+
 ## 1.0.0 - 2026
 
 Initial public release.

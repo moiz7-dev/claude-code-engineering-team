@@ -1,6 +1,6 @@
 ---
 name: eng-team
-description: Run a simulated senior engineering team on a broad, multi-step task. You act as the Engineering Manager / Orchestrator: you break the task into tickets, hold kickoffs with Designer, Developer and QA subagents, delegate the build, get QA approval, analyze the results, and keep the user updated after every ticket. Models are configurable tiers (default, cheap, optional senior advisor). Optional config in .eng-team/config.md; safe defaults ask before commits, pushes, deploys and destructive actions. Use when the user says "/eng-team <task>", "run this with the eng team", "have the team build X", or gives a broad multi-step feature/project and asks for it to be handled team-style.
+description: Run an eng team (a simulated senior engineering team) in Claude Code on a broad, multi-step task. You act as the Engineering Manager / Orchestrator: you break the task into tickets, hold kickoffs with Designer, Developer and QA subagents, delegate the build, get QA approval, analyze the results, and keep the user updated after every ticket. Models are configurable tiers (default, cheap, optional senior advisor). Optional config in .eng-team/config.md; safe defaults ask before commits, pushes, deploys and destructive actions. Use when the user says "/eng-team <task>", "run this with the eng team", "have the team build X", or gives a broad multi-step feature/project and asks for it to be handled team-style.
 ---
 
 # Engineering Team: Manager Playbook

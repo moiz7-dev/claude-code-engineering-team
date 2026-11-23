@@ -1,0 +1,12 @@
+# eng-team
+
+> eng-team is an unofficial community Claude Code skill and plugin that runs an AI engineering team: a Manager plans tickets, Designer, Developer and QA subagents build them, and QA must approve each ticket. Safe by default (no commit, push or deploy without asking) and built for low token cost.
+
+Not affiliated with, endorsed by, or sponsored by Anthropic.
+
+## Docs
+- [README](https://github.com/moiz7-dev/eng-team#readme): install, quickstart, how it works, FAQ
+- [Manager playbook (SKILL.md)](https://github.com/moiz7-dev/eng-team/blob/main/skills/eng-team/SKILL.md): authoritative behaviour
+- [Agents](https://github.com/moiz7-dev/eng-team/tree/main/agents): Designer, Developer and QA subagents
+- [Example config](https://github.com/moiz7-dev/eng-team/blob/main/examples/config.example.md)
+- [Changelog](https://github.com/moiz7-dev/eng-team/blob/main/CHANGELOG.md)

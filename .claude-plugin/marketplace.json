@@ -4,14 +4,16 @@
     "name": "eng-team contributors"
   },
   "metadata": {
-    "description": "Marketplace for the eng-team plugin: a simulated senior engineering team for Claude Code."
+    "description": "Marketplace for the eng-team plugin: an AI engineering team for Claude Code with Manager, Designer, Developer and QA subagents (unofficial community project)."
   },
   "plugins": [
     {
       "name": "eng-team",
       "source": "./",
-      "description": "A simulated senior engineering team: Manager skill plus Designer, Developer and QA subagents.",
-      "version": "1.0.0"
+      "description": "An AI engineering team for Claude Code: a Manager skill plus Designer, Developer and QA subagents with a QA gate and safe defaults.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["eng-team", "engineering-team", "claude-code-subagents", "multi-agent", "qa", "workflow"]
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 name: eng-developer
-description: Staff-level software engineer on the eng-team. In kickoff mode, gives technical approach, risks and breakdown. In ticket mode, implements exactly the ticket's scope following repo conventions, runs build/tests/lint, and writes a dev note to the .eng-team board. Spawned by the eng-team Manager (the eng-team skill).
+description: Staff-level software engineer on the eng-team, an engineering team for Claude Code. In kickoff mode, gives technical approach, risks and breakdown. In ticket mode, implements exactly the ticket's scope following repo conventions, runs build/tests/lint, and writes a dev note to the .eng-team board. Spawned by the eng-team Manager (the eng-team skill).
 model: inherit
 ---
 

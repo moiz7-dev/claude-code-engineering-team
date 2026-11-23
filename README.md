@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🧑‍💻 eng-team
+# 🧑‍💻 eng-team: an AI engineering team for Claude Code
 
-**A multi-agent AI engineering team for Claude Code: a skill and plugin that runs subagents like a real team.**
+**eng-team is a multi-agent engineering team on GitHub for Claude Code: a skill and plugin that runs Manager, Designer, Developer and QA subagents like a real team.**
 Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it, and nothing is "done" until QA approves.
 **Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
 
@@ -15,7 +15,16 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
 
-**eng-team** is a Claude Code skill and plugin that turns Claude Code into a small, multi-agent engineering team. A Manager (the skill) plans the work into tickets, and Designer, Developer and QA subagents carry them out, with a QA gate before anything counts as done. It is designed to keep token cost low while keeping quality high.
+**eng-team** (the "eng team" for Claude) is a Claude Code skill and plugin, hosted here on GitHub, that turns Claude Code into a small, multi-agent engineering team. A Manager (the skill) plans the work into tickets, and Designer, Developer and QA subagents carry them out, with a QA gate before anything counts as done. It is designed to keep token cost low while keeping quality high.
+
+**Install in one minute** (inside Claude Code):
+
+```
+/plugin marketplace add moiz7-dev/eng-team
+/plugin install eng-team@eng-team-marketplace
+```
+
+Then run `/eng-team <your task>`. More options: [Install](#install).
 
 **What is it?**
 - A Claude Code skill (`/eng-team`) plus three subagents: Designer, Developer and QA.
@@ -461,7 +470,7 @@ The file must be at `.eng-team/config.md` in the project root, one `key: value` 
 ## ❓ FAQ
 
 <details>
-<summary>How do I make Claude Code work like an engineering team?</summary>
+<summary>What is eng-team, and how do I use an engineering team with Claude Code?</summary>
 
 Install eng-team (see [Install](#install)) and run `/eng-team` with a task. A Manager plans tickets, then Designer, Developer and QA subagents work through them, and QA must approve each ticket. See [How it flows](#flow).
 
@@ -471,6 +480,20 @@ Install eng-team (see [Install](#install)) and run `/eng-team` with a task. A Ma
 <summary>How do I reduce Claude Code token cost with subagents?</summary>
 
 eng-team shares one repo digest instead of re-exploring, points to files instead of pasting them, keeps reports short, and scales the process to the task size. Quality gates such as QA and tests are never cut. Details: [Built to be cheap to run](#cheap).
+
+</details>
+
+<details>
+<summary>Is eng-team an official Claude or Anthropic project?</summary>
+
+No. It is an unofficial community project for Claude Code, not affiliated with, endorsed by, or sponsored by Anthropic, and not related to other repositories with similar names. Check the repository owner and `plugin.json` when comparing "eng team" projects on GitHub.
+
+</details>
+
+<details>
+<summary>Where can I find the Claude Code skill and subagent files?</summary>
+
+The Manager skill is [`skills/eng-team/SKILL.md`](skills/eng-team/SKILL.md) and the Designer, Developer and QA subagents are in [`agents/`](agents/). The plugin manifests are in [`.claude-plugin/`](.claude-plugin/).
 
 </details>
 
@@ -548,4 +571,4 @@ Yes: set `language` and `tone: technical` in the config.
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
 
-<sub>Keywords: Claude Code, Claude Code skill, Claude Code plugin, subagents, multi-agent, agentic workflow, AI engineering team, QA gate, token efficiency.</sub>
+<sub>Keywords: eng team, engineering team, Claude, Claude Code, Claude Code skill, Claude Code plugin, Claude Code subagents, GitHub, multi-agent, agentic workflow, AI engineering team, QA gate, token efficiency.</sub>

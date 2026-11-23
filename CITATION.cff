@@ -8,6 +8,9 @@ repository-code: "https://github.com/moiz7-dev/eng-team"
 license: MIT
 version: 1.0.0
 keywords:
+  - eng-team
+  - engineering-team
+  - claude-code-subagents
   - claude-code
   - subagents
   - multi-agent
