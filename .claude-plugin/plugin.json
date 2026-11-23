@@ -1,0 +1,12 @@
+{
+  "name": "eng-team",
+  "version": "1.0.0",
+  "description": "A simulated senior engineering team for Claude Code: a Manager skill that runs Designer, Developer and QA subagents through tickets, kickoffs and QA-approved delivery, with safe defaults.",
+  "author": {
+    "name": "eng-team contributors"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/moiz7-dev/eng-team",
+  "repository": "https://github.com/moiz7-dev/eng-team",
+  "keywords": ["agents", "subagents", "orchestration", "engineering-team", "qa", "workflow"]
+}

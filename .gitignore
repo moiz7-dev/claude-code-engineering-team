@@ -1,0 +1,15 @@
+# eng-team boards and local config
+.eng-team/
+.eng-team/config.md
+!examples/config.example.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / temp
+.vscode/
+.idea/
+*.swp
+*.tmp

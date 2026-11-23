@@ -1,0 +1,17 @@
+{
+  "name": "eng-team-marketplace",
+  "owner": {
+    "name": "eng-team contributors"
+  },
+  "metadata": {
+    "description": "Marketplace for the eng-team plugin: a simulated senior engineering team for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "eng-team",
+      "source": "./",
+      "description": "A simulated senior engineering team: Manager skill plus Designer, Developer and QA subagents.",
+      "version": "1.0.0"
+    }
+  ]
+}
