@@ -4,6 +4,7 @@
 
 **A simulated senior engineering team for Claude Code.**
 Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it, and nothing is "done" until QA approves.
+**Main motive: a low-cost, efficient team, with maximum quality at minimum AI cost.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](#install)
@@ -14,19 +15,53 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 > [!NOTE]
 > Unofficial community project. Not affiliated with, endorsed by, or sponsored by Anthropic.
 
+<a id="strengths"></a>
+## ⭐ Key strengths
+
+| # | Strength | What it means |
+|---|---|---|
+| 1 | 👥 **Full team in one place** | You give a task; the Manager splits it into tickets; the Designer, Developer and QA each do their part. |
+| 2 | ✅ **Nothing is "done" without QA** | An independent QA reviews every ticket. Failures go back to the developer, with a maximum of 3 rework rounds. |
+| 3 | 🗣️ **No code knowledge needed** | Updates are in plain language: what happened, what is next, what needs you. Technical detail stays on the team board. |
+| 4 | 🔒 **Safe by default** | No commit, push, deploy or payment without asking. Risky behaviours are opt-in via config. Payments, legal agreements, credentials, public posts and account deletion always ask, whatever the config says. |
+| 5 | 🏆 **Low token cost, same quality** | **The headline: maximum quality at minimum AI cost.** The repo is explored once and shared as a digest, briefs point to files instead of pasting them, and the process scales to the task. QA and tests are never cut. See [Built to be cheap to run](#cheap). |
+
+> [!IMPORTANT]
+> **Our main motive: a low-cost, efficient team.** eng-team is built to give you maximum quality at minimum AI cost. It cuts waste (repeated exploration, pasted context, oversized process), never QA, tests or acceptance criteria.
+
+Bonus: works with any language or stack, and with the model tiers you configure. Two install methods: plugin or manual copy (see [Install](#install)).
+
+<a id="cheap"></a>
+### 🏆 Built to be cheap to run
+
+Each technique below comes from the "Token efficiency" section of [`skills/eng-team/SKILL.md`](skills/eng-team/SKILL.md). Quality gates are never cut; only waste is.
+
+| Technique | How it saves tokens |
+|---|---|
+| One shared repo digest | After recon, `brief.md` holds a digest of about 40 lines (stack, commands, folder map, conventions). Every member reads it instead of re-exploring the repo; recon never runs twice. |
+| Point, do not paste | Briefs give board and exact file paths and inline only the few lines that are new. No whole files, plans or earlier reports pasted into prompts. |
+| Cache-friendly fixed briefs | Every brief starts with the same fixed block and puts the ticket-specific part last, so prompt caching can reuse the prefix. Parallel members are spawned in one message. |
+| Scale of process matches task size | A tiny or small task gets no kickoff, one Developer, one QA and one ticket. Tiny related tickets are merged to avoid micro-ticket briefing overhead. |
+| Short reports, detail on the board | Members return about 150 words and keep full detail in their board file. The Manager reads the summary and the `VERDICT` line first. |
+| Targeted reads and tests | Grep first, then line ranges; narrowest test while iterating, full suite once at the end of the ticket. |
+| Rework discipline | Brief it right the first time; on rework send only the specific findings. A looping member is stopped and re-briefed. |
+| Optional senior advisor, only when needed | A stronger model is consulted only when the confidence gate shows real doubt (hard plan, stuck problem), normally once per task, and only if `advisor` is on. |
+| Model tiers | A cheap tier (default `haiku`) is allowed for truly trivial tasks only, never for real features, QA verdicts or risky work. |
+
 ## ✨ Why eng-team
 
 - 🧭 **Plans before it builds.** Intake, repo recon, a kickoff meeting, then a ticket plan with acceptance criteria.
 - ✅ **QA gate.** Every ticket gets a strict review and a `VERDICT: APPROVED` or `VERDICT: CHANGES REQUESTED`. Max 3 rework rounds.
 - 🔒 **Safe by default.** Commits, pushes, deploys and destructive actions ask you first unless you opt in.
 - 🗂️ **Shared team board.** Subagents cannot talk to each other, so they share Markdown files under `.eng-team/<task-slug>/`.
-- 💸 **Token-aware.** One shared repo digest, short reports, scaled ceremony, configurable model tiers.
+- 💸 **Built to be cheap (our main motive).** One shared repo digest, short reports, scaled ceremony, configurable model tiers, and never a cut to QA or tests. See [Built to be cheap to run](#cheap).
 - 🗣️ **Client-friendly updates.** Plain-language status after every ticket (or `tone: technical` if you are an engineer).
 
 ## 📑 Table of contents
 
 | | |
 |---|---|
+| [⭐ Key strengths](#strengths) | Five strengths, and why it is cheap to run |
 | [🚀 Quickstart](#quickstart) | Three copy-paste prompts |
 | [🔌 Install](#install) | Plugin or manual, update, uninstall, verify |
 | [🗺️ How it flows](#flow) | Overall diagram |
