@@ -10,7 +10,7 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](#install)
-[![Version 1.0.1](https://img.shields.io/badge/version-1.0.1-blue.svg)](CHANGELOG.md)
+[![Version 1.0.2](https://img.shields.io/badge/version-1.0.2-blue.svg)](CHANGELOG.md)
 
 </div>
 

@@ -1,6 +1,6 @@
 {
   "name": "eng-team",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An AI engineering team for Claude Code (unofficial community project): a Manager skill plus Designer, Developer and QA subagents that plan tickets, build them and pass a QA gate, with safe defaults and low token cost.",
   "author": {
     "name": "eng-team contributors"

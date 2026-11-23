@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.2 - 2026-11-23
 
 - Repository renamed to claude-code-engineering-team; plugin name unchanged.
 - Added a social preview banner (`docs/social-preview.png`, source `docs/social-preview.html`).
