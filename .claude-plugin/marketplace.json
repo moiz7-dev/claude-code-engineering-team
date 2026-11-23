@@ -11,7 +11,7 @@
       "name": "eng-team",
       "source": "./",
       "description": "An AI engineering team for Claude Code: a Manager skill plus Designer, Developer and QA subagents with a QA gate and safe defaults.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "development",
       "keywords": ["eng-team", "engineering-team", "claude-code-subagents", "multi-agent", "qa", "workflow"]
     }

@@ -6,7 +6,7 @@ authors:
   - name: "eng-team contributors"
 repository-code: "https://github.com/moiz7-dev/claude-code-engineering-team"
 license: MIT
-version: 1.0.2
+version: 1.0.3
 keywords:
   - eng-team
   - engineering-team

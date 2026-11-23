@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.3 - 2026-11-23
 
 - README: added the personal note to the top of the page, under the badges.
 - README: added a short personal note, "Why I built this".
