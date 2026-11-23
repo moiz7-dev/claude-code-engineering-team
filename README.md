@@ -10,7 +10,8 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757.svg)](#install)
-[![Version 1.0.3](https://img.shields.io/badge/version-1.0.3-blue.svg)](CHANGELOG.md)
+[![Version 1.0.4](https://img.shields.io/badge/version-1.0.4-blue.svg)](CHANGELOG.md)
+[![Listed on ClaudePluginHub](https://www.claudepluginhub.com/badge/moiz7-dev-eng-team)](https://www.claudepluginhub.com/plugins/moiz7-dev-eng-team?ref=badge)
 
 </div>
 
@@ -29,6 +30,8 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 ```
 
 Or from a terminal: `claude plugin marketplace add moiz7-dev/claude-code-engineering-team` then `claude plugin install eng-team@eng-team-marketplace`.
+
+Also listed on [ClaudePluginHub](https://www.claudepluginhub.com/plugins/moiz7-dev-eng-team).
 
 Then run `/eng-team <your task>`. More options: [Install](#install).
 

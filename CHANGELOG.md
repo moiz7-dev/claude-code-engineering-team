@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 - 2026-11-23
+
+- ClaudePluginHub listing badge.
+
 ## 1.0.3 - 2026-11-23
 
 - README: added the personal note to the top of the page, under the badges.
