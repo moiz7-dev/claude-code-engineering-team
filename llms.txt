@@ -5,8 +5,8 @@
 Not affiliated with, endorsed by, or sponsored by Anthropic.
 
 ## Docs
-- [README](https://github.com/moiz7-dev/eng-team#readme): install, quickstart, how it works, FAQ
-- [Manager playbook (SKILL.md)](https://github.com/moiz7-dev/eng-team/blob/main/skills/eng-team/SKILL.md): authoritative behaviour
-- [Agents](https://github.com/moiz7-dev/eng-team/tree/main/agents): Designer, Developer and QA subagents
-- [Example config](https://github.com/moiz7-dev/eng-team/blob/main/examples/config.example.md)
-- [Changelog](https://github.com/moiz7-dev/eng-team/blob/main/CHANGELOG.md)
+- [README](https://github.com/moiz7-dev/claude-code-engineering-team#readme): install, quickstart, how it works, FAQ
+- [Manager playbook (SKILL.md)](https://github.com/moiz7-dev/claude-code-engineering-team/blob/main/skills/eng-team/SKILL.md): authoritative behaviour
+- [Agents](https://github.com/moiz7-dev/claude-code-engineering-team/tree/main/agents): Designer, Developer and QA subagents
+- [Example config](https://github.com/moiz7-dev/claude-code-engineering-team/blob/main/examples/config.example.md)
+- [Changelog](https://github.com/moiz7-dev/claude-code-engineering-team/blob/main/CHANGELOG.md)

@@ -7,7 +7,7 @@
   },
   "icon": "./docs/icon.png",
   "license": "MIT",
-  "homepage": "https://github.com/moiz7-dev/eng-team",
-  "repository": "https://github.com/moiz7-dev/eng-team",
+  "homepage": "https://github.com/moiz7-dev/claude-code-engineering-team",
+  "repository": "https://github.com/moiz7-dev/claude-code-engineering-team",
   "keywords": ["eng-team", "engineering-team", "claude-code", "claude-code-plugin", "claude-code-skills", "claude-code-subagents", "subagents", "multi-agent", "agentic-workflow", "orchestration", "qa", "token-efficiency"]
 }

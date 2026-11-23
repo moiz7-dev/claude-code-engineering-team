@@ -4,7 +4,7 @@ title: "eng-team: a multi-agent AI engineering team skill for Claude Code"
 type: software
 authors:
   - name: "eng-team contributors"
-repository-code: "https://github.com/moiz7-dev/eng-team"
+repository-code: "https://github.com/moiz7-dev/claude-code-engineering-team"
 license: MIT
 version: 1.0.1
 keywords:

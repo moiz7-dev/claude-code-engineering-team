@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧑‍💻 eng-team: an AI engineering team for Claude Code
+# 🧑‍💻 Claude Code Engineering Team (eng-team)
 
 ![eng-team: a low-cost, multi-agent engineering team for Claude Code (Manager, Designer, Developer, QA)](docs/social-preview.png)
 
@@ -22,9 +22,11 @@ Hand it a broad task. A Manager plans it, a Designer, Developer and QA build it,
 **Install in one minute** (inside Claude Code):
 
 ```
-/plugin marketplace add moiz7-dev/eng-team
+/plugin marketplace add moiz7-dev/claude-code-engineering-team
 /plugin install eng-team@eng-team-marketplace
 ```
+
+Or from a terminal: `claude plugin marketplace add moiz7-dev/claude-code-engineering-team` then `claude plugin install eng-team@eng-team-marketplace`.
 
 Then run `/eng-team <your task>`. More options: [Install](#install).
 
@@ -133,11 +135,11 @@ What happens next: the Manager reads the repo, writes a brief and a plan on the 
 Inside Claude Code:
 
 ```
-/plugin marketplace add moiz7-dev/eng-team
+/plugin marketplace add moiz7-dev/claude-code-engineering-team
 /plugin install eng-team@eng-team-marketplace
 ```
 
-Replace `moiz7-dev/eng-team` with the GitHub path of this repository. Plugin agents are namespaced: `eng-team:eng-developer`, `eng-team:eng-designer`, `eng-team:eng-qa`. The Manager detects this automatically (the "Install check" step in [`skills/eng-team/SKILL.md`](skills/eng-team/SKILL.md)).
+Terminal equivalent: `claude plugin marketplace add moiz7-dev/claude-code-engineering-team`. Plugin agents are namespaced: `eng-team:eng-developer`, `eng-team:eng-designer`, `eng-team:eng-qa`. The Manager detects this automatically (the "Install check" step in [`skills/eng-team/SKILL.md`](skills/eng-team/SKILL.md)).
 
 ### Option B: manual copy
 
