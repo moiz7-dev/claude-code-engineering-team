@@ -1,8 +1,11 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 - 2026-11-23
 
-- Docs: clearer README title, intro and FAQ wording (eng team, engineering team, Claude Code, GitHub); sharper plugin and marketplace descriptions and keywords; added `llms.txt`, `SECURITY.md` and an issue template.
+- README: key strengths section and the low-cost motive.
+- SEO and discoverability improvements (title, intro, FAQ, descriptions, keywords).
+- Line-ending fix via `.gitattributes`.
+- Added `llms.txt`, `SECURITY.md` and an issue template.
 
 ## 1.0.0 - 2026
 
